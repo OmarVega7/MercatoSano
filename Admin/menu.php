@@ -41,8 +41,8 @@
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-users"></i>Usuarios</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-users"></i><a href="tables-basic.php">Clientes</a></li>
-                            <li><i class="fa fa-users"></i><a href="tables-administradores.php">Administradores</a></li>
+                            <li><i class="fa fa-users"></i><a href="tables-clientes.php">Clientes</a></li>
+                            <li><i class="fa fa-users"></i><a href="tables-data.php">Administradores</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children dropdown">
