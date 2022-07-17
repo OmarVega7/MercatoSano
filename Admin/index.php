@@ -69,36 +69,95 @@
         </div>
 
         <div class="content mt-3">
+        <div class="col-sm-12 mb-4">
+        <div class="card-group">
+            <div class="card col-md-6 no-padding ">
+                <div class="card-body">
+                    <div class="h1 text-muted text-right mb-4">
+                        <i class="fa fa-users"></i>
+                    </div>
 
-            <div class="col-sm-12">
-                <div class="alert  alert-success alert-dismissible fade show" role="alert">
-                    <span class="badge badge-pill badge-success">Success</span> You successfully read this important alert message.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                    <div class="h4 mb-0">
+                        <span class="count">87500</span>
+                    </div>
+
+                    <small class="text-muted text-uppercase font-weight-bold">Visitantes</small>
+                    <div class="progress progress-xs mt-3 mb-0 bg-flat-color-1" style="width: 40%; height: 5px;"></div>
                 </div>
             </div>
+            <div class="card col-md-6 no-padding ">
+                <div class="card-body">
+                    <div class="h1 text-muted text-right mb-4">
+                        <i class="fa fa-user-plus"></i>
+                    </div>
+                    <div class="h4 mb-0">
+                        <span class="count">385</span>
+                    </div>
+                    <small class="text-muted text-uppercase font-weight-bold">Nuevos clientes</small>
+                    <div class="progress progress-xs mt-3 mb-0 bg-flat-color-2" style="width: 40%; height: 5px;"></div>
+                </div>
+            </div>
+            <div class="card col-md-6 no-padding ">
+                <div class="card-body">
+                    <div class="h1 text-muted text-right mb-4">
+                        <i class="fa fa-cart-plus"></i>
+                    </div>
+                    <div class="h4 mb-0">
+                        <span class="count">1238</span>
+                    </div>
+                    <small class="text-muted text-uppercase font-weight-bold">Productos vendidos este mes</small>
+                    <div class="progress progress-xs mt-3 mb-0 bg-flat-color-3" style="width: 40%; height: 5px;"></div>
+                </div>
+            </div>
+            <div class="card col-md-6 no-padding ">
+                <div class="card-body">
+                    <div class="h1 text-muted text-right mb-4">
+                        <i class="fa fa-pie-chart"></i>
+                    </div>
+                    <div class="h4 mb-0">
+                        <span class="count">28</span>%
+                    </div>
+                    <small class="text-muted text-uppercase font-weight-bold">Visitantes frecuentes</small>
+                    <div class="progress progress-xs mt-3 mb-0 bg-flat-color-4" style="width: 40%; height: 5px;"></div>
+                </div>
+            </div>
+            <div class="card col-md-6 no-padding ">
+                <div class="card-body">
+                    <div class="h1 text-muted text-right mb-4">
+                        <i class="fa fa-clock-o"></i>
+                    </div>
+                    <div class="h4 mb-0">5:34:11</div>
+                    <small class="text-muted text-uppercase font-weight-bold">Tiempo promedio</small>
+                    <div class="progress progress-xs mt-3 mb-0 bg-flat-color-5" style="width: 40%; height: 5px;"></div>
+                </div>
+            </div>
+            <div class="card col-md-6 no-padding ">
+                <div class="card-body">
+                    <div class="h1 text-muted text-right mb-4">
+                        <i class="fa fa-comments-o"></i>
+                    </div>
+                    <div class="h4 mb-0">
+                        <span class="count">972</span>
+                    </div>
+                    <small class="text-muted text-uppercase font-weight-bold">Reseñas</small>
+                    <div class="progress progress-xs mt-3 mb-0 bg-flat-color-1" style="width: 40%; height: 5px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-            <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-3">
                 <div class="card text-white bg-flat-color-1">
                     <div class="card-body pb-0">
                         <div class="dropdown float-right">
-                            <button class="btn bg-transparent dropdown-toggle theme-toggle text-light" type="button" id="dropdownMenuButton1" data-toggle="dropdown">
-                                <i class="fa fa-cog"></i>
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <div class="dropdown-menu-content">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </div>
+                            
+                           
                         </div>
                         <h4 class="mb-0">
                             <span class="count">10468</span>
                         </h4>
-                        <p class="text-light">Members online</p>
+                        <p class="text-light">Registros de clientes por día</p>
 
                         <div class="chart-wrapper px-0" style="height:70px;" height="70">
                             <canvas id="widgetChart1"></canvas>
@@ -114,21 +173,12 @@
                 <div class="card text-white bg-flat-color-2">
                     <div class="card-body pb-0">
                         <div class="dropdown float-right">
-                            <button class="btn bg-transparent dropdown-toggle theme-toggle text-light" type="button" id="dropdownMenuButton2" data-toggle="dropdown">
-                                <i class="fa fa-cog"></i>
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                <div class="dropdown-menu-content">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </div>
+                            
                         </div>
                         <h4 class="mb-0">
                             <span class="count">10468</span>
                         </h4>
-                        <p class="text-light">Members online</p>
+                        <p class="text-light">Visitantes de la pagína por día</p>
 
                         <div class="chart-wrapper px-0" style="height:70px;" height="70">
                             <canvas id="widgetChart2"></canvas>
@@ -143,21 +193,12 @@
                 <div class="card text-white bg-flat-color-3">
                     <div class="card-body pb-0">
                         <div class="dropdown float-right">
-                            <button class="btn bg-transparent dropdown-toggle theme-toggle text-light" type="button" id="dropdownMenuButton3" data-toggle="dropdown">
-                                <i class="fa fa-cog"></i>
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
-                                <div class="dropdown-menu-content">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </div>
+                           
                         </div>
                         <h4 class="mb-0">
-                            <span class="count">10468</span>
+                            <span class="count">87500</span>
                         </h4>
-                        <p class="text-light">Members online</p>
+                        <p class="text-light">Comportamiento general de las ganancias</p>
 
                     </div>
 
@@ -175,18 +216,12 @@
                             <button class="btn bg-transparent dropdown-toggle theme-toggle text-light" type="button" id="dropdownMenuButton4" data-toggle="dropdown">
                                 <i class="fa fa-cog"></i>
                             </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
-                                <div class="dropdown-menu-content">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </div>
+                            
                         </div>
                         <h4 class="mb-0">
                             <span class="count">10468</span>
                         </h4>
-                        <p class="text-light">Members online</p>
+                        <p class="text-light">Pedidos por día                   </p><br>
 
                         <div class="chart-wrapper px-3" style="height:70px;" height="70">
                             <canvas id="widgetChart4"></canvas>
@@ -196,6 +231,7 @@
                 </div>
             </div>
             <!--/.col-->
+            <h5 class="col-lg-3 col-md-6">   Estatus de las redes sociales de Mercato Sano</h5><br>
 
             <div class="col-lg-3 col-md-6">
                 <div class="social-box facebook">
@@ -277,8 +313,8 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-sm-4">
-                                <h4 class="card-title mb-0">Traffic</h4>
-                                <div class="small text-muted">October 2017</div>
+                                <h4 class="card-title mb-0">Trafico</h4>
+                                <div class="small text-muted">Julio 2022</div>
                             </div>
                             <!--/.col-->
                             <div class="col-sm-8 hidden-sm-down">
@@ -286,13 +322,13 @@
                                 <div class="btn-toolbar float-right" role="toolbar" aria-label="Toolbar with button groups">
                                     <div class="btn-group mr-3" data-toggle="buttons" aria-label="First group">
                                         <label class="btn btn-outline-secondary">
-                                            <input type="radio" name="options" id="option1"> Day
+                                            <input type="radio" name="options" id="option1"> Dia
                                         </label>
                                         <label class="btn btn-outline-secondary active">
-                                            <input type="radio" name="options" id="option2" checked=""> Month
+                                            <input type="radio" name="options" id="option2" checked=""> Mes
                                         </label>
                                         <label class="btn btn-outline-secondary">
-                                            <input type="radio" name="options" id="option3"> Year
+                                            <input type="radio" name="options" id="option3"> Año
                                         </label>
                                     </div>
                                 </div>
@@ -310,28 +346,28 @@
                     <div class="card-footer">
                         <ul>
                             <li>
-                                <div class="text-muted">Visits</div>
+                                <div class="text-muted">Visitas</div>
                                 <strong>29.703 Users (40%)</strong>
                                 <div class="progress progress-xs mt-2" style="height: 5px;">
                                     <div class="progress-bar bg-success" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                             <li class="hidden-sm-down">
-                                <div class="text-muted">Unique</div>
+                                <div class="text-muted">Unica</div>
                                 <strong>24.093 Users (20%)</strong>
                                 <div class="progress progress-xs mt-2" style="height: 5px;">
                                     <div class="progress-bar bg-info" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                             <li>
-                                <div class="text-muted">Pageviews</div>
+                                <div class="text-muted">Paginas vistas</div>
                                 <strong>78.706 Views (60%)</strong>
                                 <div class="progress progress-xs mt-2" style="height: 5px;">
                                     <div class="progress-bar bg-warning" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                             <li class="hidden-sm-down">
-                                <div class="text-muted">New Users</div>
+                                <div class="text-muted">Nuevos usuarios</div>
                                 <strong>22.123 Users (80%)</strong>
                                 <div class="progress progress-xs mt-2" style="height: 5px;">
                                     <div class="progress-bar bg-danger" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
@@ -346,115 +382,22 @@
                             </li>
                         </ul>
                     </div>
+                    
                 </div>
+                
             </div>
-
-            <div class="col-xl-3 col-lg-6">
-                <section class="card">
-                    <div class="twt-feed blue-bg">
-                        <div class="corner-ribon black-ribon">
-                            <i class="fa fa-twitter"></i>
-                        </div>
-                        <div class="fa fa-twitter wtt-mark"></div>
-
-                        <div class="media">
-                            <a href="#">
-                                <img class="align-self-center rounded-circle mr-3" style="width:85px; height:85px;" alt="" src="images/admin.jpg">
-                            </a>
-                            <div class="media-body">
-                                <h2 class="text-white display-6">Jim Doe</h2>
-                                <p class="text-light">Project Manager</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="weather-category twt-category">
-                        <ul>
-                            <li class="active">
-                                <h5>750</h5>
-                                Tweets
-                            </li>
-                            <li>
-                                <h5>865</h5>
-                                Following
-                            </li>
-                            <li>
-                                <h5>3645</h5>
-                                Followers
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="twt-write col-sm-12">
-                        <textarea placeholder="Write your Tweet and Enter" rows="1" class="form-control t-text-area"></textarea>
-                    </div>
-                    <footer class="twt-footer">
-                        <a href="#"><i class="fa fa-camera"></i></a>
-                        <a href="#"><i class="fa fa-map-marker"></i></a>
-                        New Castle, UK
-                        <span class="pull-right">
-                            32
-                        </span>
-                    </footer>
-                </section>
-            </div>
+            
 
 
-            <div class="col-xl-3 col-lg-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="stat-widget-one">
-                            <div class="stat-icon dib"><i class="ti-money text-success border-success"></i></div>
-                            <div class="stat-content dib">
-                                <div class="stat-text">Total Profit</div>
-                                <div class="stat-digit">1,012</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
 
 
-            <div class="col-xl-3 col-lg-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="stat-widget-one">
-                            <div class="stat-icon dib"><i class="ti-user text-primary border-primary"></i></div>
-                            <div class="stat-content dib">
-                                <div class="stat-text">New Customer</div>
-                                <div class="stat-digit">961</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="stat-widget-one">
-                            <div class="stat-icon dib"><i class="ti-layout-grid2 text-warning border-warning"></i></div>
-                            <div class="stat-content dib">
-                                <div class="stat-text">Active Projects</div>
-                                <div class="stat-digit">770</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-6">
-                <div class="card">
-                    <div class="card-header">
-                        <h4>World</h4>
-                    </div>
-                    <div class="Vector-map-js">
-                        <div id="vmap" class="vmap" style="height: 265px;"></div>
-                    </div>
-                </div>
-                <!-- /# card -->
-            </div>
 
 
-        </div> <!-- .content -->
+
+
+
+        </div> <!-- j.content -->
     </div><!-- /#right-panel -->
 
     <!-- Right Panel -->

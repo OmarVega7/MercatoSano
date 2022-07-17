@@ -19,9 +19,9 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa ti-user"></i>Perfil</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="fa fa-user"></i><a href="perfil.php">Mi perfil</a></li>
-                            <li><i class="fa fa-bell"></i><a href="ui-badges.html">Notificaciones</a></li>
-                            <li><i class="fa fa-cog"></i><a href="ui-tabs.html">Configuración</a></li>
-                            <li><i class="fa fa-power-off"></i><a href="ui-social-buttons.html">Cerrar sesión</a></li>
+                            <li><i class="fa fa-bell"></i><a href="ui-alerts.php">Notificaciones</a></li>
+                           
+                            <li><i class="fa fa-power-off"></i><a href="page-login.html">Cerrar sesión</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children dropdown">
@@ -58,7 +58,14 @@
                         </ul>
                     </li>
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-th"></i>Productos</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-pagelines"></i>Productos</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-apple"></i><a href="alimentos.php">Alimentos</a></li>
+                            <li><i class="menu-icon fa fa-flask"></i><a href="cosmeticos.php">Cosmeticos</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-pagelines"></i>Productos</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="menu-icon fa fa-th"></i><a href="forms-basic.html">Basic Form</a></li>
                             <li><i class="menu-icon fa fa-th"></i><a href="forms-advanced.html">Advanced Form</a></li>
